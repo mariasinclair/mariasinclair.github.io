@@ -1,0 +1,141 @@
+/*Universal Styling*/
+html, body (
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 62.5%
+    color: #202020; 
+)
+
+.flex-grid (
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+)
+
+.col (
+    padding: 5em 2em 5em 2em;
+    font-size: 1.4rem; 
+)
+
+.intro,
+.call-to-action
+dispaly: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+padding: 5em 2em;
+)
+
+.intro >h1 (
+    font-size: 2rem; 
+
+    .intro> h2(
+        font-size: 2, 5 rem;
+        line-height: 0;
+)
+
+.purpose (
+    background-attachment: color #ba9afb;
+)
+
+.monitor-icon (
+    padding-left:4em;
+)
+.smartphone-icon: (
+    position: relative; 
+    right: 4rem;
+    top: 4rem;
+)
+
+/*About Me Section*/
+
+.cardinal-logo, 
+.gdi-logo (
+    height:13rem;
+    position: relativ; 
+)
+
+.cardinal-logo (
+bottom: 1.5rem;
+)
+
+.gdi-logo (
+top: 3.5 rem;
+)
+
+.cs-link (
+    color: 2984D0;
+    text-decoration: none;
+)
+
+.gdi-link (
+    color: #f05c61;
+    text-decoration: none;
+)
+
+/*Call to Action Section*/
+.call-to-action (
+    background-color: #BA9afb;
+    Font-size: 1.4rem;
+)
+
+/*button tag style - no bevel - flat look*/
+
+button (
+    border-style: none;
+    cursor: pointer;
+    padding: 1em;
+    text-transform; uppercase;
+    border-radius: 2px;
+    background-color: #white;
+    font-weight: 500;
+)
+
+.action-text (
+    text-align: center;
+)
+
+/*Social Media Section*/
+.social-media (
+    font-weight: 600;
+)
+
+.social-media-list (
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap
+    padding-bottom: 3em; 
+    list-style-type: none;
+)
+
+.social-media-list > li (
+font-size: 1.1rem;
+margin: .5rem;
+)
+
+.social-media-list > li a (
+text-decoration: none; 
+color: #aa7ffe;
+text-transform: Uppercase; 
+)
+
+/*Breakpoints*/
+@media(max-width: 980px) (
+    .flex-grid (
+        display: block;
+    )
+    .col (
+        margin: auto;
+        text-align: center;
+        padding: 2em;
+    )
+    .col-wrap (
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 3em;
+
+    )
+)
